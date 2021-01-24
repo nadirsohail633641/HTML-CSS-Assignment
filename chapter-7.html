@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="chapter-7.css" />
+  </head>
+  <body>
+    <h1><strong>Chapter # 7 - Forms</strong></h1>
+    <form action="mailto:wajahat.jutt09@gmail.com" method="POST">
+      <fieldset>
+        <legend>Your Details:</legend>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="Name"
+          required
+          maxlength="20"
+          placeholder="Wajahat Ali"
+        />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" id="email" required placeholder="abc@gmail.com" />
+      </fieldset>
+      <br />
+
+      <fieldset>
+        <legend>Your Review:</legend>
+        <label for="how-you-know">How Did You know About Us?</label>
+        <select name="know" id="know">
+          <option value="google" id="know">Google</option>
+          <option value="facebook" id="know">Facebook</option>
+          <option value="linkedin" id="know">LinkedIn</option>
+          <option value="website" id="know">Website</option>
+        </select>
+        <br />
+        <br />
+        <label for="visit" id="visit">Will You Visit Again?</label>
+        <br />
+        <input type="radio" value="yes" id="visit" />yes
+        <input type="radio" value="No" id="visit" />No
+        <input type="radio" value="maybe" id="visit" />Maybe
+        <br />
+        <br />
+        <label for="comments" id="comment">Comments:</label>
+        <br />
+        <textarea name="comments" id="comment" cols="40" rows="5"></textarea>
+        <br />
+        <br />
+        <input type="checkbox" id="signup" />
+        <label for="signup" id="signup">Sign me up for email updates</label>
+        <br />
+        <input id="submit" name="submit" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>

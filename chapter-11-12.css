@@ -1,0 +1,23 @@
+body {
+    font-family: Georgia;
+}
+
+#hd1{
+    text-shadow:1px 1px 3px black;
+    text-transform: uppercase;
+}
+
+#link{
+    text-align: center;
+}
+.list {
+    line-height: 2.2;
+}
+
+.cl {
+   color: blue;
+}
+
+.hd2::first-letter , .hd3::first-letter , .hd4::first-letter , .hd5::first-letter {
+    font-size: 30px;
+}
