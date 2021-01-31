@@ -34,7 +34,7 @@ body{
 
 }
 .bt {
-    background-color:#2ECC71 ;
+    background-color:#4cbb17 ;
     margin-left: 10px;
 }
 .bt:hover {
@@ -59,27 +59,25 @@ body{
 #ik:active {
     border-bottom: brown;
 }
-#tb{
-    height: 500px;
-    width: 100%;
-    background-color: #2ECC71 ;
-    text-align: center;
-}
-
-.tg {
-    font-size: 60px;
+.centered0 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
     color: white;
-
+    font-style: bold;
 }
+
 .desc {
-    padding-bottom: 40px;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 20px;
+    
 }
-
-.btrd {
-    background-color: orange;
+.btn{
     padding: 5px 10px;
 }
-
 #tb1 {  
     width: 100%;
     height: 50px;
@@ -98,12 +96,12 @@ body{
 }
 
 .avs {
-    color: green;
+    color: #4cbb17;
 }
 
 .da {
     text-align: center;
-    color: lightgray;
+    color: #B8B8B8;
 }
 
 .descrip {
@@ -112,7 +110,7 @@ body{
 
 .lorem {
     font-size: 0.9em;
-    color: lightgray;
+    color: #C8C8C8;
     margin-top: 10px;
 }
 
@@ -122,14 +120,23 @@ body{
     width: 100%;
 }
 
-.abc {
+.container {
+    position: relative;
     text-align: center;
-    
+    color: black;
 }
 
-.bc {
-    text-align: left;
-    padding-top: 40px;
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+ 
+.top-left {
+    position: absolute;
+    top: 100px;
+    left: 16px;
 }
 
 .readmore {
@@ -138,4 +145,217 @@ body{
     background-color: orange;
     padding: 10px 20px;
     margin-left: 30px;
+    margin-top: 20px;
+}
+
+#clms {
+    margin-top: 10px;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 30px;
+}
+  
+.card {
+    padding: 50px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.tbl{
+    width: 100%;
+    height: 30px;
+}
+
+.portfolio {
+	background-color: black;
+	text-align: center;
+    width: 100%;
+    height: 600px;	
+}
+
+.pf {
+    padding-top: 10px;
+}
+
+
+.portfolio-lk{
+	float: none;
+	padding: 5px;
+    color: white;	
+}
+
+#portfolio-lk {
+	color: white;
+	text-decoration: none;
+	padding-left: 15px;	
+}
+
+.column1 {
+  float: left;
+}
+
+.process{
+    margin-top: 60px;
+
+}
+
+#tb5 {
+    width: 100%;
+    height: 50px;
+}
+
+.responsive1 {
+    margin-top: 70px;
+    float: left;
+    width: 15.9999%;
+    text-align: center;
+}
+
+
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 40px;  
+}
+
+.process1{
+    float: left;
+    width: 100%;
+    height: 450px;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    background-color: #f7f7f7;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.icp {
+    width: 80px;
+    height: 60px;
+    float: left;
+    padding-right: 20px;
+    margin-top: -10px;
+}
+
+.skills-2 {
+    float: left;
+    width: 100%;
+    margin: 0;
+
+}
+
+.skill-2 {
+    height: 80px;
+    width: 100%;
+}
+
+.adv-2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.responsive2 {
+    margin-top: 70px;
+    float: left;
+    margin-left: 8%;
+    width: 15.9999%;
+    text-align: center;
+}
+
+.project {
+    float: left;
+    width: 100%;
+    margin: 0;
+    background-color: #4cbb17;
+}
+
+.proj {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.adv-3 {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+}
+
+.request-area {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+#email , #name , #phone {
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 50px;
+    width: 20%;
+    text-decoration: none;
+    border-color: unset;
+}
+
+#sr {
+    height: 50px;
+    width: 10em;
+    text-decoration: none;
+    background-color: orange;
+}
+
+#sr:hover {
+    cursor: pointer;
+}
+
+.contact {
+    float: left;
+    width: 100%;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.cont {
+    text-align: center;
+    font-size: 40px;
+}
+
+#location , #pn {
+    height: 17px;
+    width: 20px;
+    margin-left: 20px;
+}
+
+#maps {
+    margin-top: 20px;
+    width: 100%;
+    height: 400px;
+}
+
+.footer{
+	background-color: #4cbb17;
+	color: white;	
+}
+
+.width-td{
+	width: 30%;
+    height: 20px;
+}
+
+.contact-phone-footer a{
+	color: white;
+	text-decoration: none;
+	text-align: left;
+	font-size: 15px;	
+}
+
+.text-color{
+	color: white;
+	text-decoration: none;
+}
+
+.people{	
+	background-color:  white;
 }
